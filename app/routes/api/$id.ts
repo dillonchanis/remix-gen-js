@@ -14,7 +14,7 @@ const jsScript = (id?: string) => `
   banner.style.color = "white";
   const content = document.createTextNode("Hello World!");
   banner.appendChild(content);
-  body.appendChild(banner);
+  body.prepend(banner);
 })();
 `;
 
